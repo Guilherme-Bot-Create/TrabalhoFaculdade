@@ -1,0 +1,46 @@
+/* Botões da pagina inicial */
+.Botao1{
+    font-size: 25px;
+    text-decoration: none;
+    color: #482f11 ;
+    background: #b08e6b;
+    border: solid 2px;
+    box-shadow: inset 0 0 0 0 #482f11;
+    transition: all 0.4s ease-in-out 0s;
+}
+/* Animação ao colocar o mouse em cima */
+
+.Botao1:hover{
+
+    color: #b08e6b;
+    background-color: #482f11;
+    box-shadow: inset 1000px 0 0 0 #482f11;
+    
+    
+}
+
+/* Botões gerais */
+.Botao{
+    font-size: 21px;
+    text-decoration: none;
+    color: #482f11 ;
+    background: #b08e6b;
+    border: solid 1px;
+    box-shadow: inset 0 0 0 0 #482f11;
+    transition: all 0.4s ease-in-out 0s;
+}
+/* Animação ao colocar o mouse em cima */
+.Botao:hover{
+
+    color: #b08e6b;
+    background-color: #482f11;
+    box-shadow: inset 1000px 0 0 0 #482f11;
+    
+    
+}
+/* centraliza a lista de botões */
+.centraliza{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}

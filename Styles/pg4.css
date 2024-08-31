@@ -1,0 +1,61 @@
+/* posicionamento do formulario customização e animação */
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+    font-size: 25px;
+  }
+  input, textarea {
+    
+    max-height: 250px;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  textarea {
+    min-width: 600px;
+    min-height: 50px;
+  }
+  /* posicionamento do botão espaçamento e cor */
+  button {
+    padding: 10px 20px;
+    background-color: #482f11 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: ponter;
+  }
+  
+  button:hover {
+    background-color:  #5e3e17;
+  }
+  form {
+    animation: aparecerbaixotxt 2s forwards;
+    opacity: 0;
+}
+
+@keyframes aparecerbaixotxt {
+    0% {
+        opacity: 0;
+        transform: scale(0%);
+   }
+   100% {
+    opacity: 1;
+    transform: scale(100%);
+}
+}
+/* icone de fundo */
+  .fa-face-smile-wink{
+    rotate: -30deg;
+    opacity: 10%;
+    position: fixed;
+    font-size:500px;
+    z-index: -2;
+  }
+

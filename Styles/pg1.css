@@ -1,0 +1,71 @@
+/* posicionamento do texto e customização animação */
+#sobrev p{
+    position: fixed;
+    color: #482f11 ;
+    width: 600px;
+    height: 300px;
+    margin: 0;
+    font-size: 25px;
+    top: 20%;
+    animation: aparecerldtxt 2s forwards;
+    opacity: 0;
+    z-index: 1;
+}
+
+@keyframes aparecerldtxt {
+    to {
+        opacity: 1;
+        margin-left: 30px;
+    }
+}
+
+
+/* posicionamento do texto e customização animação */
+#sobreh p{
+    position: fixed;
+    color: #482f11 ;
+    width: 600px;
+    height: 300px;
+    margin: 0;
+    font-size: 25px;
+    top: 20%;
+    animation: aparecerlddtxt 2s forwards;
+    opacity: 0;
+    z-index: 1;
+    right: 0;
+}
+
+
+@keyframes aparecerlddtxt {
+    to {
+        opacity: 1;
+        margin-right: 30px;
+    }
+}
+/* icone da pagina animado*/
+#iconeHis{
+    left: 40%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    animation: subir 2s forwards;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    opacity: 0;
+}
+
+@keyframes subir {
+    to {
+        opacity: 1;
+        bottom: 10px;
+    }
+}
+/* icone de fundo */
+.fa-rocket{
+    rotate: -30deg;
+    opacity: 10%;
+    position: fixed;
+    font-size:500px;
+    z-index: -2;
+}
